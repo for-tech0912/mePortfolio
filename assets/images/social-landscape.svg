@@ -1,0 +1,12 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Landscape social placeholder">
+  <defs>
+    <linearGradient id="landscapeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f6ff" />
+      <stop offset="100%" stop-color="#b9f1da" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="48" fill="url(#landscapeGradient)" />
+  <circle cx="220" cy="180" r="110" fill="#2e6751" fill-opacity="0.18" />
+  <circle cx="960" cy="520" r="140" fill="#2e6751" fill-opacity="0.2" />
+  <text x="50%" y="55%" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="46" fill="#0f1c2e" fill-opacity="0.75">16:9 Visual</text>
+</svg>
