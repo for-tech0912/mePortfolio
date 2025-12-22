@@ -15,7 +15,9 @@ const initApp = () => {
     // initialize a site-wide background media (video or animated gif)
     // default uses a small sample video; replace or disable by passing options here
     try {
-        initBackgroundMedia({
+        // keep a reference on `window.__bgMedia` so you can change or remove it from the console
+        // Example: window.__bgMedia.setSource('https://...gif', 'image') or window.__bgMedia.remove()
+        window.__bgMedia = initBackgroundMedia({
             type: 'video',
             src: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
             opacity: 0.42,
