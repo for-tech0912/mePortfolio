@@ -28,4 +28,18 @@ export const webProjects = [
         live: '#',
         caseStudy: '#',
     },
+
+    {
+        title: 'ASL GTM',
+        description: 'Google Teachable Machine. Experience real-time American Sign Language detection.',
+             images: [
+        'assets/images/asl.png',
+        'assets/images/asl1.png',
+        'assets/images/asl2.png',
+        'assets/images/asl3.png',
+        'assets/images/asl4.png',
+    ],
+        live: 'https://bonil-crypto.github.io/asl_gtm2025/',
+        caseStudy: '#',
+    },
 ];
