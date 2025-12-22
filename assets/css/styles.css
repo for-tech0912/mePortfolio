@@ -826,6 +826,35 @@ body.lock-scroll {
     }
 }
 
+/* Decorative animated GIFs and small motion helpers */
+.hero-visual__gif {
+    position: absolute;
+    right: -10%;
+    top: -6%;
+    width: clamp(140px, 22vw, 320px);
+    height: auto;
+    pointer-events: none;
+    transform-origin: center;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 18px 30px rgba(15, 28, 46, 0.18)) saturate(1.05);
+    animation: gifBob 6s ease-in-out infinite;
+    z-index: 2;
+}
+
+@keyframes gifBob {
+    0% { transform: translateY(0) rotate(-2deg); }
+    50% { transform: translateY(-10px) rotate(2deg); }
+    100% { transform: translateY(0) rotate(-2deg); }
+}
+
+/* Small entrance animation for GIFs */
+.hero-visual__gif.is-visible {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
 @media (max-width: 768px) {
     nav {
         justify-content: center;
