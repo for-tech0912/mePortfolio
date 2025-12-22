@@ -10,7 +10,6 @@ import { initStatCounters, syncYear } from './modules/meta.js';
 import { initScrollToTop } from './modules/scroll-top.js';
 import { initSparkleEffects } from './modules/sparkles.js';
 import { initBackgroundMedia } from './modules/background-media.js';
-import { initDecorativeAnimations } from './modules/decorative-animations.js';
 
 const initApp = () => {
     // initialize a site-wide background media (video or animated gif)
@@ -27,12 +26,7 @@ const initApp = () => {
         // fail silently if background media can't be created
         console.warn('background media init failed', e);
     }
-    // decorative GIFs (hero area)
-    try {
-        window.__decorG = initDecorativeAnimations();
-    } catch (e) {
-        console.warn('decorative animations init failed', e);
-    }
+    // decorative GIFs removed to keep hero visuals static
     initFilterControls();
     initSocialGallery();
     initWebProjects();

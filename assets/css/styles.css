@@ -105,8 +105,8 @@ body.lock-scroll {
     border-radius: 40px;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(135deg, rgba(155, 203, 183, 0.4), rgba(188, 220, 244, 0.4));
-    padding: 14px;
+    background: transparent; /* removed colored overlay so images show correctly */
+    padding: 0; /* let the image fill the visual container */
     box-shadow: var(--soft-shadow);
 }
 
