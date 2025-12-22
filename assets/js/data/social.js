@@ -6,7 +6,7 @@ export const socialMediaItems = [
         description: 'Clean square canvas ready for campaign swaps.',
         image: 'assets/images/social/1x1/s1.png',
     },
-     {
+    {
         title: 'Square Mood · 02',
         ratio: '1:1',
         description: 'Clean square canvas ready for campaign swaps.',
@@ -36,25 +36,24 @@ export const socialMediaItems = [
         description: 'Diagonal motion layout for carousel entries.',
         image: 'assets/images/social/1x1/s7.png',
     },
-        {
+    {
         title: 'Square Mood · 07',
         ratio: '1:1',
         description: 'Diagonal motion layout for carousel entries.',
         image: 'assets/images/social/1x1/s9.png',
     },
-            {
+    {
         title: 'Square Mood · 08',
         ratio: '1:1',
         description: 'Diagonal motion layout for carousel entries.',
         image: 'assets/images/social/1x1/s11.png',
     },
-          {
+    {
         title: 'Square Mood · 09',
         ratio: '1:1',
         description: 'Diagonal motion layout for carousel entries.',
         image: 'assets/images/social/1x1/s12.png',
     },
-
 
     // 4:3 spotlight set
     {
@@ -87,7 +86,7 @@ export const socialMediaItems = [
         description: 'High-contrast framing for launch teases.',
         image: 'assets/images/social/9x16/ads5.png',
     },
-      {
+    {
         title: 'Story Board · 06',
         ratio: '4:3',
         description: 'Split layout for before/after storytelling.',
@@ -157,5 +156,38 @@ export const socialMediaItems = [
         ratio: '16:9',
         description: 'Statement backdrop for announcements.',
         image: 'assets/images/social/16x9/covers5.png',
+    },
+];
+
+export const aiGalleryItems = [
+    {
+        title: 'AI · 01',
+        description: 'MrBeast Catch A Golden Whale in Africa',
+        image: 'assets/images/ais/sd.jpg',
+    },
+    {
+        title: 'AI · 02',
+        description: 'MrBeast Catch A Golden Whale in Africa',
+        image: 'assets/images/ais/sda.jpg',
+    },
+    {
+        title: 'AI · 03',
+        description: '50 Hours in Antarctica, Survived?',
+        image: 'assets/images/ais/50.png',
+    },
+    {
+        title: 'AI · 04',
+        description: 'Food Ads',
+        image: 'assets/images/ais/banner1.png',
+    },
+    {
+        title: 'AI · 05',
+        description: 'Food Ads',
+        image: 'assets/images/ais/banner2.png',
+    },
+       {
+        title: 'AI · 06',
+        description: 'Spent 10,000 USD on Minecraft Challenges',
+        image: 'assets/images/ais/sf.png',
     },
 ];

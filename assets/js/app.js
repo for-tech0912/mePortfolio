@@ -3,6 +3,7 @@ import { initSocialGallery } from './modules/social-gallery.js';
 import { initWebProjects } from './modules/web-projects.js';
 import { initDataGallery } from './modules/data-gallery.js';
 import { initSkillsGrid } from './modules/skills-grid.js';
+import { initAIGallery } from './modules/ai-gallery.js';
 import { initLightbox } from './modules/lightbox.js';
 import { initRevealAnimations } from './modules/animations.js';
 import { initStatCounters, syncYear } from './modules/meta.js';
@@ -14,6 +15,7 @@ const initApp = () => {
     initSocialGallery();
     initWebProjects();
     initDataGallery();
+    initAIGallery();
     initSkillsGrid();
     initLightbox();
     initRevealAnimations();

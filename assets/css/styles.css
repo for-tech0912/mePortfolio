@@ -392,6 +392,51 @@ body.lock-scroll {
     border-radius: 24px;
 }
 
+.ai-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.ai-card {
+    border-radius: var(--radius-xl);
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: var(--soft-shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ai-card__media {
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+.ai-card__media img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.ai-card__body {
+    padding: 1.25rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ai-card__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.ai-card__description {
+    font-size: 0.95rem;
+    color: var(--slate);
+    line-height: 1.5;
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
