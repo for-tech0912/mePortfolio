@@ -9,8 +9,21 @@ import { initRevealAnimations } from './modules/animations.js';
 import { initStatCounters, syncYear } from './modules/meta.js';
 import { initScrollToTop } from './modules/scroll-top.js';
 import { initSparkleEffects } from './modules/sparkles.js';
+import { initBackgroundMedia } from './modules/background-media.js';
 
 const initApp = () => {
+    // initialize a site-wide background media (video or animated gif)
+    // default uses a small sample video; replace or disable by passing options here
+    try {
+        initBackgroundMedia({
+            type: 'video',
+            src: 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4',
+            opacity: 0.42,
+        });
+    } catch (e) {
+        // fail silently if background media can't be created
+        console.warn('background media init failed', e);
+    }
     initFilterControls();
     initSocialGallery();
     initWebProjects();
