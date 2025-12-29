@@ -4,6 +4,7 @@ import { initWebProjects } from './modules/web-projects.js';
 import { initDataGallery } from './modules/data-gallery.js';
 import { initSkillsGrid } from './modules/skills-grid.js';
 import { initAIGallery } from './modules/ai-gallery.js';
+import { initFashionGallery } from './modules/fashion-gallery.js';
 import { initLightbox } from './modules/lightbox.js';
 import { initRevealAnimations } from './modules/animations.js';
 import { initStatCounters, syncYear } from './modules/meta.js';
@@ -32,6 +33,7 @@ const initApp = () => {
     initWebProjects();
     initDataGallery();
     initAIGallery();
+    initFashionGallery();
     initSkillsGrid();
     initLightbox();
     initRevealAnimations();
