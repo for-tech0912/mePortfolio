@@ -190,4 +190,25 @@ export const aiGalleryItems = [
         description: 'Spent 10,000 USD on Minecraft Challenges',
         image: 'assets/images/ais/sf.png',
     },
+     {
+        title: 'AI · 07',
+        description: '',
+        image: 'assets/images/social/16x9/24.png',
+    },
+       {
+        title: 'AI · 07',
+        description: '',
+        image: 'assets/images/social/16x9/setup.png',
+    },
+       {
+        title: 'AI · 07',
+        description: '',
+        image: 'assets/images/social/16x9/spent.png',
+    },
+       {
+        title: 'AI · 07',
+        description: '',
+        image: 'assets/images/social/16x9/steak.png',
+    },
+   
 ];
